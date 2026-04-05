@@ -34,7 +34,7 @@ $template = $row['template'] ?? 1;
 </head>
 <body>
 
-<!-- Navbar -->
+<!-- Navbar (Updated for hover/click effects) -->
 <div class="navbar">
     <h2>Resume Builder</h2>
     <div>

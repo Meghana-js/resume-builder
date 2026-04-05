@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
 
-<!-- Navbar -->
+<!-- Navbar (Updated for hover/click effects) -->
 <div class="navbar">
     <h2>Resume Builder</h2>
     <div>
@@ -50,7 +50,7 @@ if (!isset($_SESSION['username'])) {
             <option value="6">Classic</option>
         </select><br><br>
 
-        <button type="submit">Generate Resume</button>
+        <button type="submit" class="generate-btn">Generate Resume</button>
     </form>
 </div>
 
