@@ -124,4 +124,4 @@ Email: your.email@example.com
 This tool is for educational and portfolio purposes only. Users are responsible for ensuring correct information is entered in resumes.
 ✅ Made with ❤️ using PHP, MySQL, HTML, CSS, JavaScript
 
-
+**Resume Builder** is licensed under the [MIT License](LICENSE)
