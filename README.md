@@ -64,16 +64,16 @@ Browser (Chrome, Edge, Firefox recommended)
 Quick Install
 
 # 1. Clone the repository
-git clone https://github.com/<your-username>/resume-builder.git
-cd resume-builder
+git clone https://github.com/Meghana-js/resume-builder.git
 
 # 2. Move to XAMPP htdocs folder
-# e.g., C:\xampp\htdocs\resume-builder
+ e.g., C:\xampp\htdocs\resume-builder
 
 # 3. Import database
-# Open phpMyAdmin -> Create DB 'resume_builder' -> Import 'resume_builder.sql'
+ Open phpMyAdmin -> Create DB 'resume_builder' -> Import 'resume_builder.sql'
 
 # 4. Start XAMPP Apache & MySQL
+
 # 5. Open browser and navigate to
 http://localhost/resume-builder/login.html
 
