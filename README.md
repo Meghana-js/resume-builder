@@ -1,39 +1,68 @@
 🌟 Resume Builder Web Application
+
 PHP MySQL HTML CSS JavaScript | License: MIT | Stars: ⭐
+
 An advanced web application to create professional resumes instantly | Multi-template support | User-friendly | Session-based authentication
+
 Create modern, professional resumes with ease. Built with PHP, MySQL, and styled with CSS, this web app allows users to generate resumes, choose from multiple templates, and download them with their uploaded profile photo and entered details.
+
 🚀 Quick Start • ✨ Features • 📸 Screenshots • 🛠️ Installation • 📖 Usage • 🤝 Contributing
 🌟 What Makes This Special?
+
 Complete Resume Creation Solution
 ✅ Multi-Template Support – Choose from Simple, Moderate, Professional, Creative, Modern, Classic templates
+
 ✅ User Authentication – Signup/Login with secure password hashing
+
 ✅ Offline Ready – Runs locally on your system with XAMPP/WAMP
+
 ✅ Profile Photo Upload – Add personal photo to resumes
+
 ✅ Modern Design – Clean, intuitive user interface
+
 ✅ Responsive Layout – Works on desktop and mobile browsers
+
 ✅ PDF/HTML Ready – Export resumes for printing or sharing
+
 ✅ Session Management – Secure login sessions with logout functionality
+
 ✨ Features
+
 Core Capabilities
+
 🎯 Dynamic Resume Generation – Fill form and generate a resume instantly
+
 🖼️ Profile Photo – Upload photo for a personalized resume
+
 📋 Template Selection – Choose from 6 professionally designed templates
+
 💬 Secure Login/Signup – Passwords hashed for security
+
 📄 Download/Print Ready – Save your resume for professional use
+
 🌈 Colorful Buttons & UI – Interactive, visually appealing interface
+
 ⚡ Session Handling – Prevent unauthorized access to forms/resumes
+
 📸 Screenshots
+
 Signup/Login Page – Clean form with colorful buttons
 Resume Form Page – Enter personal, education, skills, and project info
 Generated Resume – Multiple templates to choose from
 Download/Preview – Export resume in professional format
+
+
 🛠️ Installation
+
 Prerequisites
 XAMPP/WAMP server with PHP 8+
 MySQL 5.7+
 500MB free disk space
 Browser (Chrome, Edge, Firefox recommended)
+
+
 Quick Install
+
 # 1. Clone the repository
 git clone https://github.com/<your-username>/resume-builder.git
 cd resume-builder
@@ -114,14 +143,17 @@ Create a new branch: git checkout -b feature/YourFeature
 Commit changes: git commit -m "Add YourFeature"
 Push: git push origin feature/YourFeature
 Open a Pull Request
+
 📄 License
 This project is licensed under the MIT License – see LICENSE file for details.
 
 📧 Contact & Support
 GitHub: @your-username⁠�
 Email: your.email@example.com
+
 ⚠️ Disclaimer
 This tool is for educational and portfolio purposes only. Users are responsible for ensuring correct information is entered in resumes.
-✅ Made with ❤️ using PHP, MySQL, HTML, CSS, JavaScript
 
 **Resume Builder** is licensed under the [MIT License](LICENSE)
+
+✅ Made with ❤️ using PHP, MySQL, HTML, CSS, JavaScript
