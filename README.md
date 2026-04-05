@@ -88,7 +88,9 @@ Profile Photo
 Select Template
 Click Generate Resume
 View the generated resume and download/print it
+
 🗂️ Project Structure
+
 resume-builder/
 ├── form.php               # Main resume form
 ├── login.php              # User login handling
@@ -111,14 +113,20 @@ Resume generated → selected template applied with profile photo
 Resume displayed → user can preview, print, or save
 
 🔧 Configuration
+
 Database Connection: Edit db.php with your MySQL credentials
 Templates: Update templates/ folder for custom styles
 CSS: Modify style.css for colors, fonts, buttons, and layout
+
+
 🧪 Testing
+
 Open browser and test:
 Signup → Login → Form submission → Resume generation
 Verify session management by trying to access form.php without login
 Test each template to ensure proper formatting
+
+
 ⚡ Advanced Usage
 Add new templates:
 Create a new PHP file under templates/
@@ -126,10 +134,14 @@ Update save_resume.php to save template choice
 Add new fields:
 Update form.php and save_resume.php
 Update template files to display new field
+
+
 🐛 Troubleshooting
 Database connection failed → Check db.php credentials
 Session not working → Ensure PHP sessions enabled and XAMPP running
 Image upload errors → Check folder permissions in images/
+
+
 🤝 Contributing
 Ways to Contribute
 🐛 Report Bugs: Open an issue
@@ -137,6 +149,8 @@ Ways to Contribute
 📝 Improve Documentation: Help make the README better
 🎨 Enhance UI: Update style.css or templates
 🗂️ Add Templates: Create new professional resume templates
+
+
 Contribution Process
 Fork the repository
 Create a new branch: git checkout -b feature/YourFeature
@@ -148,8 +162,9 @@ Open a Pull Request
 This project is licensed under the MIT License – see LICENSE file for details.
 
 📧 Contact & Support
-GitHub: @your-username⁠�
-Email: your.email@example.com
+creator- Meghana j S
+GitHub: @Meghana-js
+Email: meghanajshet@gmail.com
 
 ⚠️ Disclaimer
 This tool is for educational and portfolio purposes only. Users are responsible for ensuring correct information is entered in resumes.
