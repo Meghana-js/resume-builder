@@ -1,5 +1,79 @@
-<form action="login.php" method="POST">
-    <input type="text" name="username" placeholder="Username" required><br>
-    <input type="password" name="password" placeholder="Password" required><br>
-    <button type="submit">Login</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Resume Builder</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-box {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 { color: #333; margin-bottom: 20px; }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .login-btn {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+        }
+
+        .login-btn:hover {
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+        }
+
+        .form-box a {
+            display: block;
+            margin-top: 15px;
+            color: #ff4b2b;
+            text-decoration: none;
+        }
+
+        .form-box a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="form-box">
+    <h2>Login</h2>
+    <form action="login.php" method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit" class="login-btn">Login</button>
+    </form>
+    <a href="signup.html">Don't have an account? Signup</a>
+</div>
+
+</body>
+</html>
