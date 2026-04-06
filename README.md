@@ -1,6 +1,6 @@
-🌟 Resume Builder Web Application
+#🌟 Resume Builder Web Application
 
-PHP MySQL HTML CSS JavaScript | License: MIT | Stars: ⭐
+PHP, MySQL, HTML, CSS, JavaScript | License: MIT |
 
 An advanced web application to create professional resumes instantly | Multi-template support | User-friendly | Session-based authentication
 
@@ -64,17 +64,18 @@ Browser (Chrome, Edge, Firefox recommended)
 Quick Install
 
 # 1. Clone the repository
-git clone https://github.com/Meghana-js/resume-builder.git
+ git clone https://github.com/Meghana-js/resume-builder.git
 
 # 2. Move to XAMPP htdocs folder
- e.g., C:\xampp\htdocs\resume-builder
+ C:\xampp\htdocs\resume-builder
 
 # 3. Import database
  Open phpMyAdmin -> Create DB 'resume_builder' -> Import 'resume_builder.sql'
 
-# 4. Start XAMPP Apache & MySQL
+# 4. Start Server
+ Start Apache and MySQL in XAMPP
 
-# 5. Open browser and navigate to
+# 5. Run Project
 http://localhost/resume-builder/login.html
 
 📖 Usage
@@ -89,7 +90,7 @@ Select Template
 Click Generate Resume
 View the generated resume and download/print it
 
-🗂️ Project Structure
+##🗂️ Project Structure
 
 resume-builder/
 ├── form.php               # Main resume form
@@ -161,7 +162,7 @@ Open a Pull Request
 📄 License
 This project is licensed under the MIT License – see LICENSE file for details.
 
-📧 Contact & Support
+##📧 Contact & Support
 creator- Meghana j S
 GitHub: @Meghana-js
 Email: meghanajshet@gmail.com
