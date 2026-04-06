@@ -2,7 +2,7 @@
 session_start();
 include "db.php";
 
-// Step 2a: Check if user is logged in
+// ✅ Check login
 if (!isset($_SESSION['username'])) {
     header("Location: login.html");
     exit();
@@ -10,31 +10,50 @@ if (!isset($_SESSION['username'])) {
 
 $user = $_SESSION['username'];
 
-// Step 2b: Check if form data exists
-if(isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['skills'], $_POST['education'], $_POST['projects'], $_POST['template'])) {
+// ✅ Check required fields
+if (
+    isset(
+        $_POST['name'],
+        $_POST['email'],
+        $_POST['phone'],
+        $_POST['skills'],
+        $_POST['education'],
+        $_POST['projects'],
+        $_POST['template']
+    )
+) {
 
-    // Step 2c: Sanitize input
+    // ✅ Sanitize input
     $name = mysqli_real_escape_string($conn, trim($_POST['name']));
     $email = mysqli_real_escape_string($conn, trim($_POST['email']));
     $phone = mysqli_real_escape_string($conn, trim($_POST['phone']));
+    $address = mysqli_real_escape_string($conn, trim($_POST['address']));
+    $objective = mysqli_real_escape_string($conn, trim($_POST['objective']));
     $skills = mysqli_real_escape_string($conn, trim($_POST['skills']));
     $education = mysqli_real_escape_string($conn, trim($_POST['education']));
+    $experience = mysqli_real_escape_string($conn, trim($_POST['experience']));
     $projects = mysqli_real_escape_string($conn, trim($_POST['projects']));
+    $achievements = mysqli_real_escape_string($conn, trim($_POST['achievements']));
+    $languages = mysqli_real_escape_string($conn, trim($_POST['languages']));
+    $hobbies = mysqli_real_escape_string($conn, trim($_POST['hobbies']));
     $template = (int) $_POST['template'];
 
-    // Step 2d: Handle photo upload
+    // ✅ Photo upload
     $photo = '';
-    if(isset($_FILES['photo']) && $_FILES['photo']['name'] != '') {
+    if (isset($_FILES['photo']) && $_FILES['photo']['name'] != '') {
         $photo = time() . '_' . basename($_FILES['photo']['name']);
-        move_uploaded_file($_FILES['photo']['tmp_name'], "images/".$photo);
+        move_uploaded_file($_FILES['photo']['tmp_name'], "images/" . $photo);
     }
 
-    // Step 2e: Insert into database
-    $sql = "INSERT INTO resume (username, name, email, phone, skills, education, projects, photo, template)
-            VALUES ('$user','$name','$email','$phone','$skills','$education','$projects','$photo','$template')";
+    // ✅ Insert query (UPDATED)
+    $sql = "INSERT INTO resume 
+    (username, name, email, phone, address, objective, skills, education, experience, projects, achievements, languages, hobbies, photo, template)
+    VALUES 
+    ('$user','$name','$email','$phone','$address','$objective','$skills','$education','$experience','$projects','$achievements','$languages','$hobbies','$photo','$template')";
+
     mysqli_query($conn, $sql);
 
-    // ✅ Step 2f: Redirect to success page (avoids form resubmission)
+    // ✅ Redirect
     header("Location: resume_success.php");
     exit();
 
