@@ -1,4 +1,4 @@
-#🌟 Resume Builder Web Application
+🌟 Resume Builder Web Application
 
 PHP, MySQL, HTML, CSS, JavaScript | License: MIT |
 
@@ -90,7 +90,7 @@ Select Template
 Click Generate Resume
 View the generated resume and download/print it
 
-##🗂️ Project Structure
+🗂️ Project Structure
 
 resume-builder/
 ├── form.php               # Main resume form
@@ -162,13 +162,13 @@ Open a Pull Request
 📄 License
 This project is licensed under the MIT License – see LICENSE file for details.
 
-##📧 Contact & Support
+📧 Contact & Support
 creator- Meghana j S
 GitHub: @Meghana-js
 Email: meghanajshet@gmail.com
 
 ⚠️ Disclaimer
-This tool is for educational and portfolio purposes only. Users are responsible for ensuring correct information is entered in resumes.
+This project is for educational purposes only.
 
 **Resume Builder** is licensed under the [MIT License](LICENSE)
 
