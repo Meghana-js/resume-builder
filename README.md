@@ -46,11 +46,18 @@ Core Capabilities
 
 📸 Screenshots
 
-Signup/Login Page – Clean form with colorful buttons
+Signup Page – Clean form with colorful buttons
+![alt text](signup.screenshot.png)
+
+Login Page – Clean form with colorful buttons
+![alt text](login.screenshot.png)
+
 Resume Form Page – Enter personal, education, skills, and project info
+![alt text](<form page.screenshot.png>)
+
 Generated Resume – Multiple templates to choose from
 Download/Preview – Export resume in professional format
-
+![alt text](download.screenshot.png)
 
 🛠️ Installation
 
